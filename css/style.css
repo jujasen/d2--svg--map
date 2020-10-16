@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: #ED7200;
+    font-size: 50px;
+    text-align: center;
+}
+
+svg {
+    max-width: 800px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+[id^="terminal_"] {
+    transition: transform 0.5s;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+[id^="terminal_"]:hover {
+    transform: scale(1.5);
+}
+
+[id^="popup_"] {
+    opacity: 0;
+}
+
+.popup-open {
+    opacity: 1;
+    transition: transform 1s;
+    transform-origin: center;
+    transform-box: fill-box;
+    transform: scale(1.5);
+}
+
+.route-show {
+    transition: stroke 0.5s, stroke-width 0.5s;
+    transform-origin: center;
+    transform-box: fill-box;
+    stroke-width: 15px;
+    stroke: #ED7200;
+}
+
+.bus-expand {
+    transition: transform 0.1s;
+    transform-origin: center;
+    transform-box: fill-box;
+    transform: scale(1.3);
+}

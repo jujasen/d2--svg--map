@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+[id^="terminal_"] {
+    transition: fill 0.5s, transform 1s;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+[id^="terminal_"]:hover {
+    fill: pink;
+    transform: scale(1.2);
+
+}
+
+[id^="routeline_"] {
+    transition: stroke 0.5s, stroke-width 1s;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+
+[id^="routeline_"]:hover {
+    stroke: pink;
+    stroke-width: 20px;
+}
+
+[id^="popup_"] {
+    opacity: 0;
+}
+
+.popup-open {
+    opacity: 1;
+    fill: pink;
+    transition: fill 0.5s, transform 1s;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}

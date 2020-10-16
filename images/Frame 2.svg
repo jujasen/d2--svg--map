@@ -1,0 +1,9 @@
+<svg width="1104" height="2000" viewBox="0 0 1104 2000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 2">
+<rect width="1104" height="2000" fill="white"/>
+<circle id="terminal_arna" cx="281.871" cy="233.991" r="105.75" fill="#C4C4C4"/>
+<rect id="popup_arna" x="494.586" y="134.319" width="371.948" height="205.422" fill="#C4C4C4"/>
+<line id="routeline_45" x1="176.121" y1="460.049" x2="866.534" y2="460.049" stroke="black" stroke-width="10"/>
+<line id="routeline_66" x1="176.121" y1="589.429" x2="866.534" y2="589.429" stroke="black" stroke-width="10"/>
+</g>
+</svg>
